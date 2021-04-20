@@ -1,0 +1,257 @@
+@font-face {
+    font-family: GlacialIndifferent;
+    src: url('assets/fontes/glacial-indifference/GlacialIndifference-Bold.otf');
+}
+:root{
+    --azul: #335384;
+    --branco: #ffffff;
+    --preto: #444440;
+    --azul-claro:#5ba7d1;
+}
+.fundoAzul{
+    width: 30%;
+    min-width: 300px;
+    background-color:var(--azul);
+}
+.fundoBranco{
+    width: 70%;
+    background-color: var(--branco);    
+}
+.base{
+    display: flex;
+    
+}
+.bloco__foto{
+    display: flex;
+}
+.foto__giuliano{
+    width: 200px;
+    height: 200px ;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px;
+  
+    
+}
+/* 
+Início do Desenvolvimento do conteúdo do fundo azul
+*/
+.contato{
+    margin: 50px 15px 50px 50px;
+}
+
+.contato__titulo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: var(--branco);
+    letter-spacing: 5px;
+    padding: 1em 0;
+}
+.contato__texto{
+    font-family: 'Assistant', sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+    color: var(--branco);
+    width: 80%;
+}
+.contato__linkedin{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em 0;
+}
+.contato__email{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em 0;
+}
+.contato__telefone{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em 0;
+}
+.competencias{
+    margin: 50px;
+}
+.competencias__titulo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: var(--branco);
+    letter-spacing: 5px;
+}
+.competencias__itens{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--branco);
+    line-height: 3em;
+}
+
+/* 
+    Fim do Desenvolvimento do conteúdo do fundo Azul
+
+    Inicio do desenvolvimento do conteudo do fundo Branco
+ */
+ .tituloDocumento{
+    
+ }
+ .tituloDocumento__titulo{
+    font-family: 'GlacialIndifferent', sans-serif;
+    font-size: 4.5em;
+    font-weight: bold;
+    color: var(--azul);
+    padding: 0px 50px 0px ;
+ }
+ .tituloDocumento__borda{
+    text-decoration: underline;
+    text-decoration-color:var(--preto);
+    text-decoration-thickness: 3px;
+    border-color: var(--preto);
+   
+ }
+ .tituloDocumento__cargo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.5em;
+  
+    font-weight: bold;
+    color: var(--azul-claro);
+    letter-spacing: 6px;
+    padding: 0px 50px 15px;
+ }
+ .perfilPessoal{
+    margin: 50px;
+ }
+ .perfilPessoal__titulo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: var(--azul-claro);
+    letter-spacing: 5px;
+    padding: 1em 0;
+ }
+ .perfilPessoal__descricao{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.1235em;
+    font-weight: 300;
+    color: var(--preto);
+    padding-right: 30%;
+ }
+ .experiencia{
+    margin: 50px;
+ }
+ .experiencia__titulo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: var(--azul-claro);
+    letter-spacing: 5px;
+    padding: 1em 0;
+ }
+.experiencia__desenvolvimentoWeb{
+    
+}
+.desenvolvimentoweb__titulo{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.15em;
+    font-weight: bold;
+    color: var(--preto);
+    padding: 1em 0;
+}
+.desenvolvimentoweb__descricao{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.1235em;
+    font-weight: 300;
+    color: var(--preto);
+    padding-right: 30%;
+
+}
+.experiencia__monitor{
+  
+}
+.monitor__titulo{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.15em;
+    font-weight: bold;
+    color: var(--preto);
+    padding: 1em 0;
+}
+.monitor__descricao{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.1235em;
+    font-weight: 300;
+    color: var(--preto);
+    padding-right: 30%;
+
+}
+.formacaoAcademica{
+    margin: 50px;
+}
+.formacaoAcademica__titulo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: var(--azul-claro);
+    letter-spacing: 5px;
+    padding: 1em 0;
+}
+.formacao__bacharelado{
+
+}
+.bacharelado__titulo{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.15em;
+    font-weight: bold;
+    color: var(--preto);
+    padding: 1em 0;
+    
+}
+.bacharelado__descricao{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.1235em;
+    font-weight: 300;
+    color: var(--preto);
+    padding-right: 30%;
+
+}
+.formacao__Instituto{
+
+}
+.instituto__titulo{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.15em;
+    font-weight: bold;
+    color: var(--preto);
+    padding: 1em 0;
+}
+.instituto__descricao{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.1235em;
+    font-weight: 300;
+    color: var(--preto);
+    padding-right: 30%;
+}
+.especificidades{
+    margin: 50px;
+}
+.especificidades__titulo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: var(--azul-claro);
+    letter-spacing: 5px;
+    padding: 1em 0;
+}
+.especificidades__itens{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.1235em;
+    font-weight: 300;
+    color: var(--preto);
+}
